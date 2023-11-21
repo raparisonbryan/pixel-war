@@ -1,0 +1,178 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  .canvas {
+    border: 2px solid black;
+    cursor: crosshair;
+    background-color: white;
+  }
+
+  .usersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+    width: 40%;
+    height: 500px;
+  }
+
+  .users {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .colorsBloc {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .colorsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .colorButton {
+    width: 80px;
+    height: 25px;
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .colorButton:hover {
+    opacity: 0.3; 
+    border: 1px;
+  }
+
+  .selectedColorButton {
+    border: 1px solid white;
+  }
+  
+  
+  .colorButton.red {
+    background-color: red;
+  }
+  
+  .colorButton.green {
+    background-color: green;
+  }
+  
+  .colorButton.blue {
+    background-color: blue;
+  }
+  
+  .colorButton.yellow {
+    background-color: yellow;
+  }
+  
+  .colorButton.black {
+    background-color: black;
+  }
+  
+  .eraseButton {
+    width: 100%;
+    height: 25px;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .eraseButton:hover {
+    background-color: rgb(255, 122, 122);
+  }
+  
+  .chat {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 85vh;
+    margin: 20px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgb(0, 0, 37);
+  }
+
+  .chatWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+    background-color: #3a3a3a;
+    border-radius: 20px;
+    border: 1px solid grey;
+    gap: 10px;
+    padding-top: 20px;
+   
+  }
+
+  .chatInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .chatText {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 250px;
+    background-color: #3a3a3a;
+    border: 1px solid grey;
+    color: white;
+  }
+
+  .chatButton {
+    width: 150px;
+    height: 25px;
+    background-color: #3a3a3a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: none;
+  }
+
+  .chatButton:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .messageWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    border: 1px solid grey;
+    width: 250px;
+  }
+  
